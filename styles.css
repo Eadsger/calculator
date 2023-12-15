@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+  
+#calculator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+  
+input, button {
+  flex: 0 0 calc(25% - 10px);
+  padding: 10px;
+  font-size: 18px;
+}
+  
+#display {
+  flex: 0 0 calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 24px;
+  text-align: right;
+}
+  
+.operator {
+  background-color: orange;
+}
+  
+.clear {
+  background-color: red;
+  color: white;
+}
+  
+.backspace,
+.calculate {
+  background-color: #ccc;
+}
